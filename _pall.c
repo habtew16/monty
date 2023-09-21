@@ -9,6 +9,7 @@
 void pall(stack_t **head, __attribute__((unused)) unsigned int line_count)
 {
 	stack_t *temp = *head;
+
 	while (temp != NULL)
 	{
 		printf("%d\n", temp->n);

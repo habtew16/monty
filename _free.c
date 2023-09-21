@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * free_all - Frees all memory allocated for the stack.
+ * _free - Frees all memory allocated for the stack.
  * @stack: Pointer to the head of the stack.
  */
 
