@@ -17,6 +17,7 @@ void _execute(char *instruction, stack_t **stack, unsigned int line_number)
 	instruction_t valid_instructions[] = {
 		{"push", push},
 		{"pall", pall},
+		{"pint", pint},
 	};
 
 	while (valid_instructions[index].opcode != NULL)
