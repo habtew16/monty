@@ -18,6 +18,7 @@ void _execute(char *instruction, stack_t **stack, unsigned int line_number)
 		{"push", push},
 		{"pall", pall},
 		{"pint", pint},
+		{"swap", swap},
 		{"nop", nop},
 	};
 
